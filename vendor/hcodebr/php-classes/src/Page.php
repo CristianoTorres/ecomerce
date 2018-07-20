@@ -48,7 +48,7 @@ class Page{
 	{
 		$this->setData($data);
 
-		return $this->tpl->draw("$name, $returnHTML");
+		return $this->tpl->draw($name, $returnHTML);
 	}
 
 	public function __destruct()
